@@ -25,5 +25,16 @@ const	getDoorNumber = () =>
 const	getRandomMisc = () =>
 {
 	console.log(car.misc.color);
-	return (car.doors);
+	return (car.misc.color);
+}
+
+const	ftPrinter = () =>
+{
+	const	carMake = getCarMake ();
+	const	doorNbr = getDoorNumber();
+	const	misc = getRandomMisc();
+
+	document.write(carMake);
+	document.write(" ", doorNbr);
+	document.write(" ", misc);
 }
