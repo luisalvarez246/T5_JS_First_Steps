@@ -1,0 +1,13 @@
+form
+{
+	display: flex;
+    flex-direction: column;
+    width: 20%;
+	margin-bottom: 40px;
+}
+
+table, th, td 
+{
+	border: 1px solid black;
+	margin-bottom: 40px;
+}
